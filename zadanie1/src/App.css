@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 200px;
+  background: darkcyan;
+}
+.header-item {
+  padding: 5px;
+}
+
+.app-title {
+  padding-left: 200px;
+  border-bottom: 1px grey solid;
+}
+
+.app-title h1 {
+  text-align: left;
+}
+
+.app-title h5 {
+  text-align: left;
+}
+
+.blog-post {
+  text-align: left;
+  padding-left: 200px;
+  max-width: 700px;
+}
+
+.app-body {
+  display: flex;
+}
+
+.body-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  text-align: left;
+  background: lightgray;
+  margin-bottom: 30px;
+}
+
+.about .title {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.list {
+  text-align: left;
+}
